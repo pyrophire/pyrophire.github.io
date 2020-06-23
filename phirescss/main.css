@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Sen:400, 700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+* {
+  text-shadow: none !important;
+  font-family: "Sen", sans-serif;
+}
+
+html,
+body,
+.kss-body,
+.kss-documentation {
+  background: #3c3c3c;
+  color: rgba(255, 255, 255, 0.875);
+}
+
+.kss-navigation {
+  background: #151515;
+  color: rgba(255, 255, 255, 0.875);
+}
+
+.kss-section__modifiers,
+pre[class*="language-"] {
+  background: #222222;
+  color: rgba(255, 255, 255, 0.875);
+}
+
+.kss-section__modifiers code[class*="language-"],
+.kss-section__modifiers pre[class*="language-"],
+pre[class*="language-"] code[class*="language-"],
+pre[class*="language-"] pre[class*="language-"] {
+  color: #dce775;
+  font-family: "Source Code Pro", monospace;
+}
+
+.kss-markdown pre,
+.kss-markdown pre[class*="language-"],
+code,
+pre {
+  background: #222222;
+  color: #dce775;
+  font-family: "Source Code Pro", monospace;
+}
+
+.kss-markdown pre code,
+.kss-markdown pre pre,
+.kss-markdown pre[class*="language-"] code,
+.kss-markdown pre[class*="language-"] pre,
+code code,
+code pre,
+pre code,
+pre pre {
+  background: none;
+}
+
+.kss-section__source,
+.kss-nav__item a,
+.kss-markdown ul,
+.kss-markdown ol,
+.kss-markdown dl,
+.kss-markdown dd,
+.kss-markdown blockquote,
+.kss-markdown hr,
+.kss-markdown table,
+.kss-markdown form,
+.kss-markdown fieldset,
+.kss-markdown figure,
+.kss-markdown pre,
+.kss-markdown address,
+.kss-markdown a,
+.kss-markdown p,
+.kss-markdown h1,
+.kss-markdown h2,
+.kss-markdown h3,
+.kss-markdown h4,
+.kss-markdown h5,
+.kss-markdown h6,
+.kss-section__description ol,
+.kss-section__description ul,
+.kss-section__description p,
+.kss-section__description a {
+  color: rgba(255, 255, 255, 0.875);
+  font-family: "Sen", sans-serif;
+}
+
+.kss-markdown h1,
+.kss-markdown h2,
+.kss-markdown h3,
+.kss-markdown h4,
+.kss-markdown h5,
+.kss-markdown h6,
+.kss-section__item,
+.kss-modifiers__heading,
+.kss-title,
+.kss-nav__item a.kss-state-active,
+.kss-nav__item a:hover {
+  color: #4fc3f7;
+}
+
+img[alt="ix_logo"] {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  height: 120px;
+  width: 120px;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=main.css.map */
