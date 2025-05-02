@@ -1,148 +1,125 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="wGtibNRsmG5wOhDM8mzO">
-    <mxGraphModel>
+    <mxGraphModel dx="923" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="API Communication" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="242" y="870" width="424" height="485" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-41" value="Database" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="50" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Authentication Flow" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="283" y="439" width="246" height="231" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-50" target="gOk6X0X04--0D01jsYTo-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="User Interaction" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="271" y="8" width="328" height="358" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-50" value="Active Directory" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/active_directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="156" width="50" height="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="431" y="33" width="92" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-72" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-51" target="gOk6X0X04--0D01jsYTo-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Angular Application" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="306" y="160" width="199" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-51" value="Username / Password" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/key.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="158.75" width="50" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Login Form" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="336" y="287" width="139" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-52" target="gOk6X0X04--0D01jsYTo-78">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Active Directory" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="318" y="464" width="176" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-112" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-52" target="gOk6X0X04--0D01jsYTo-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Token Issued" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="331" y="591" width="150" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-52" value="Backend" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/mainframe_host.svg;" vertex="1" parent="1">
+          <mxGeometry x="422" y="310" width="36" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Angular Application" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="378" y="743" width="199" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-64" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-53" target="gOk6X0X04--0D01jsYTo-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="Dotnet Backend API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="377" y="895" width="200" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-53" value="Web Application" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="39.25" width="45" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="Authorization Middleware" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="277" y="1022" width="244" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-65" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-63" target="gOk6X0X04--0D01jsYTo-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="Authenticated User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="8" y="1149" width="199" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-66" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-63" target="gOk6X0X04--0D01jsYTo-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="Business Logic" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="432" y="1276" width="161" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-63" value="Attempt Auth" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="1">
+          <mxGeometry x="415" y="153" width="50" height="48.5" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="Database" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1428" width="126" height="54" as="geometry" />
+        <mxCell id="gOk6X0X04--0D01jsYTo-67" value="withCredentials" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="250" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="Accesses" style="curved=1;startArrow=none;endArrow=block;exitX=0.17;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="406" y="124" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-67" target="gOk6X0X04--0D01jsYTo-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="Initiates Sign In" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="6" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-77" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.023;entryY=0.863;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-67" target="gOk6X0X04--0D01jsYTo-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="Enters Credentials" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-108" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-78" target="gOk6X0X04--0D01jsYTo-107">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="Validates User" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8" target="9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-78" target="gOk6X0X04--0D01jsYTo-83">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="Returns JWT" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.35;entryY=0;" edge="1" parent="1" source="9" target="10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="406" y="707" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-78" value="Authenticated" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/web-ui-color/128/Checkmark-128.png" vertex="1" parent="1">
+          <mxGeometry x="403" y="440" width="74" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="Includes JWT in Header" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=1;entryX=0.15;entryY=0;" edge="1" parent="1" source="10" target="11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="834" />
-              <mxPoint x="340" y="870" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-83" target="gOk6X0X04--0D01jsYTo-89">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="Receives Request" style="curved=1;startArrow=none;endArrow=block;exitX=0.33;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="11" target="12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="399" y="986" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-83" target="gOk6X0X04--0D01jsYTo-90">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="Validates JWT" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.1;" edge="1" parent="1" source="12" target="13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="399" y="1113" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-83" value="Web Application" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="680" width="45" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="Processes Request" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.9;entryX=0.2;entryY=0;" edge="1" parent="1" source="13" target="14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="399" y="1240" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-85" target="gOk6X0X04--0D01jsYTo-93">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="25" value="Queries Database" style="curved=1;startArrow=none;endArrow=block;exitX=0.06;exitY=1;entryX=0.03;entryY=0;" edge="1" parent="1" source="14" target="15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="375" y="1355" />
-              <mxPoint x="375" y="1392" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-85" target="gOk6X0X04--0D01jsYTo-94">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="26" value="Returns Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0.74;entryY=1;" edge="1" parent="1" source="15" target="14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="588" y="1392" />
-              <mxPoint x="588" y="1355" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-85" target="gOk6X0X04--0D01jsYTo-103">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="27" value="Returns Response" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=0;entryX=0.67;entryY=1;" edge="1" parent="1" source="14" target="11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="556" y="1240" />
-              <mxPoint x="556" y="986" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-85" value="Backend" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/mainframe_host.svg;" vertex="1" parent="1">
+          <mxGeometry x="422" y="810" width="36" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="28" value="Sends Response back" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0;entryX=0.73;entryY=1;" edge="1" parent="1" source="11" target="10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="588" y="870" />
-              <mxPoint x="588" y="834" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-86" value="Windows Authentication" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;shadow=0;strokeColor=none;fillColor=#dae8fc;gradientColor=#7ea6e0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="225" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="29" value="Updates UI" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0.83;entryY=1;" edge="1" parent="1" source="10" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="549" y="707" />
-              <mxPoint x="549" y="124" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gOk6X0X04--0D01jsYTo-88" value="Login Form" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;fillColor=#ffcd28;strokeColor=none;gradientColor=#ffa500;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="525" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-100" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-89" target="gOk6X0X04--0D01jsYTo-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-89" value="withCredentials" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="685" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-102" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-90" target="gOk6X0X04--0D01jsYTo-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-90" value="JWT Header" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="685" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-93" value="Active Directory&lt;div&gt;Group Permissions&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/active_directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="813.75" width="50" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-94" value="User -&amp;gt; Role -&amp;gt; Permission" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="816.5" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-98" value="withCredentials:&lt;div&gt;TRUE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#dae8fc;gradientColor=#7ea6e0;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="225" y="629.25" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-99" value="withCredentials:&lt;div&gt;FALSE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#ffcd28;gradientColor=#ffa500;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="525" y="629.25" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-103" value="Successful&lt;div&gt;API Request&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/web-ui-color/128/Checkmark-128.png" vertex="1" parent="1">
+          <mxGeometry x="403" y="960" width="74" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-110" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-107" target="gOk6X0X04--0D01jsYTo-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOk6X0X04--0D01jsYTo-107" value="Javascript Web Token&lt;div&gt;(JWT)&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/secure.svg;" vertex="1" parent="1">
+          <mxGeometry x="569" y="464" width="32" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
