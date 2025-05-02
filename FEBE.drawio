@@ -28,7 +28,7 @@
         <mxCell id="gOk6X0X04--0D01jsYTo-52" value="Backend" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/mainframe_host.svg;" vertex="1" parent="1">
           <mxGeometry x="422" y="310" width="36" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gOk6X0X04--0D01jsYTo-64" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-53" target="gOk6X0X04--0D01jsYTo-63">
+        <mxCell id="gOk6X0X04--0D01jsYTo-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOk6X0X04--0D01jsYTo-53" target="gOk6X0X04--0D01jsYTo-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gOk6X0X04--0D01jsYTo-53" value="Web Application" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
