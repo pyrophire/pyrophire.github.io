@@ -133,7 +133,7 @@
         <mxCell id="gOk6X0X04--0D01jsYTo-107" value="Javascript Web Token&lt;div&gt;(JWT)&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/secure.svg;" parent="1" vertex="1">
           <mxGeometry x="569" y="464" width="32" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6cRNFSniOD07Q9OiP2wy-1" value="Not Authenciated" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.authentication_failure;" vertex="1" parent="1">
+        <mxCell id="6cRNFSniOD07Q9OiP2wy-1" value="Not Authenciated" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.authentication_failure;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="175" y="440" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
